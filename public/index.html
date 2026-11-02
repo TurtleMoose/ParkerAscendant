@@ -1,0 +1,43 @@
+<!--red: #560404 yellow: #ffd940-->
+<html>
+    <head>
+        <title>Parker Ascendant</title>
+        <link rel="shortcut icon" sizes="64x64" href="images/fav64.png">
+        <link rel="shortcut icon" sizes="128x128" href="images/fav128.png">
+        <link rel="shortcut icon" sizes="256x256" href="images/fav256.png">
+    </head>
+    <body>
+        <div style="background-color:#570505;width:100%;height:100%;left:0;top:0;position:fixed"></div>
+        <div style="display:flex;justify-content: center;align-items: center;top:42%;position:fixed;left:50%">
+            <img src="images/Logo.webp" style="height:clamp(40%, 70vw, 85%);max-height:95%;position:fixed;"/>
+        </div>
+        <div style="z-index:1000;width:100%;left:0%;position:fixed;bottom:7%;color:white;text-align: center;
+            font-size:xx-large;font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif">
+            Good Things Will Be Here Soon.
+            <br><a href="https://discord.gg/pd9g9yvSM4">Join The Discord While We Work</a>
+        </div>
+    </body>
+</html>
+<script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "firebase/app";
+    import { getAnalytics } from "firebase/analytics";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+        apiKey: "AIzaSyAMFajHSXNgz76wGVahr_38ErP3P8NSa-c",
+        authDomain: "parkerascendant.firebaseapp.com",
+        projectId: "parkerascendant",
+        storageBucket: "parkerascendant.firebasestorage.app",
+        messagingSenderId: "73371448108",
+        appId: "1:73371448108:web:c2e05b66f34a8eb81e3289",
+        measurementId: "G-TPZ177ZXEN"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+</script>
